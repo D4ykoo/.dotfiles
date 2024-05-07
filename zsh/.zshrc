@@ -105,8 +105,16 @@ alias vim="nvim"
 alias v="nvim"
 alias nvimconfig="cd ~/.config/nvim && nvim ."
 
+# tmuxifier
 eval "$(starship init zsh)"
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "$(tmuxifier init -)"
 
+alias mux="tmuxifier"
+alias muxs="tmuxifier load-session" # usage: muxs <session-name>
+
+# custom bins
+export PATH="$HOME/.local/scripts:$PATH"
 # git sign 
 export GPG_TTY=$(tty)
 
