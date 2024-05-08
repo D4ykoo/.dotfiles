@@ -1,3 +1,6 @@
 [submodule "nvim/.config"]
 	path = nvim/.config
 	url = https://github.com/D4ykoo/nvim.daykoo
+[submodule "tmux/tmux.layouts"]
+	path = tmux/tmux.layouts
+	url = https://github.com/D4ykoo/tmux.layouts
