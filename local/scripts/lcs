@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+pdflatex --output-directory=./out/ ./main.tex
+biber ./out/main
+pdflatex --output-directory=./out/ ./main.tex
+cp ./out/main.pdf . && okular ./main.pdf
