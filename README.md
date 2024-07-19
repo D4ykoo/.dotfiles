@@ -1,7 +1,6 @@
-# .dotfiles
-
 ## Requirements
-* for easier use: the GNU `stow` project
+See documentation of the submodules  
+For easier use: the GNU `stow` project
 ```bash
 stow <config-name>
 ```
